@@ -7,6 +7,6 @@ def all_products(request):
     and filtering etc.'''
     products = Product.objects.all()
     context = {
-        "products": products
+        "products": products,
     }
-    return render(request, "home/index.html", context)
+    return render(request, "products/products.html", context)
