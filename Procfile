@@ -1,1 +1,1 @@
-web: gunicorn djangp-ecommerce-practice-ado-boutique.wsgi:web
+web: gunicorn boutique_ado.wsgi:application
